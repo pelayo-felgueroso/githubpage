@@ -21,12 +21,19 @@ jobs:
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
+
       - uses: actions/setup-node@v6
         with:
           node-version: 22
+
       - run: npm ci
       - run: npx quartz plugin install
+
+      - name: Set production base URL
+        run: sed -i 's|baseUrl: localhost:8080|baseUrl: pelayo-felgueroso.github.io/githubpage|' quartz.config.yaml
+
       - run: npx quartz build
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
@@ -38,5 +45,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4
+      - name: Deploy to GitHub Pages
         id: deployment
+        uses: actions/deploy-pages@v4
