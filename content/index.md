@@ -11,3 +11,70 @@ You could, of course, just ask ChatGPT, but I think there's something different 
 That's the idea behind this vault: concise, structured and (hopefully) accurate knowledge, with an emphasis on how things fit together.
 
 It's a work in progress, just like my own learning. Feel free to explore.
+
+
+<div style="margin: 25px 0;">
+  <button
+    id="random-note-button"
+    style="
+      padding: 12px 22px;
+      border: 1px solid var(--secondary);
+      border-radius: 8px;
+      background: var(--secondary);
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+    "
+  >
+    Take me to a random note
+  </button>
+</div>
+
+<script>
+(() => {
+  const button = document.getElementById("random-note-button");
+  if (!button) return;
+
+  button.addEventListener("click", async () => {
+    button.disabled = true;
+    button.textContent = "Finding a note...";
+
+    try {
+      const response = await fetch(
+        new URL("static/contentIndex.json", window.location.href)
+      );
+
+      if (!response.ok) {
+        throw new Error("Could not load the content index");
+      }
+
+      const index = await response.json();
+
+      const notes = Object.values(index).filter(note =>
+        note.slug &&
+        note.slug !== "index" &&
+        note.slug !== "tags/index" &&
+        note.content?.trim().length > 0
+      );
+
+      if (notes.length === 0) {
+        throw new Error("No notes available");
+      }
+
+      const randomNote = notes[
+        Math.floor(Math.random() * notes.length)
+      ];
+
+      window.location.href = new URL(
+        randomNote.slug,
+        window.location.href
+      ).href;
+
+    } catch (error) {
+      console.error(error);
+      button.disabled = false;
+      button.textContent = "Try again";
+    }
+  });
+})();
+</script>
