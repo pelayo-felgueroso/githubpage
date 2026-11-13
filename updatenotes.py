@@ -13,8 +13,8 @@ VAULT = Path(r"C:\Users\pelaf\Documents\Obsidian-vault")
 REPO = Path(__file__).resolve().parent
 CONTENT = REPO / "content"
 
-WELCOME_NOTE = "Hi, I'm Pelayo. Welcome to my notes!.md"
-WELCOME_TITLE = "Hi, I'm Pelayo. Welcome to my notes!"
+WELCOME_NOTE = "Home.md"
+WELCOME_TITLE = "Home"
 
 BRANCH = "main"
 REMOTE = "origin"
