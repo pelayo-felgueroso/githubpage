@@ -153,6 +153,35 @@ plugins:
       priority: 50
   - source: "@quartz-community/graph"
     enabled: true
+    options:
+      localGraph:
+        drag: true
+        zoom: true
+        depth: 2
+        scale: 1.2
+        repelForce: 0.2
+        centerForce: 0.3
+        linkDistance: 55
+        fontSize: 0.75
+        opacityScale: 1.5
+        showTags: true
+        removeTags: []
+        focusOnHover: true
+        enableRadial: true
+      globalGraph:
+        drag: true
+        zoom: true
+        depth: -1
+        scale: 1
+        repelForce: 0.8
+        centerForce: 0.2
+        linkDistance: 55
+        fontSize: 0.75
+        opacityScale: 1.5
+        showTags: true
+        removeTags: []
+        focusOnHover: true
+        enableRadial: false
     layout:
       position: right
       priority: 10
@@ -196,7 +225,7 @@ plugins:
       priority: 30
       group: toolbar
   - source: "@quartz-community/reader-mode"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 35
