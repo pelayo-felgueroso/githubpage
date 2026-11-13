@@ -31,35 +31,40 @@ When the user moves the stylus, the camera captures its movement. The software p
 
 The stylus was designed to be comfortable to hold while providing reliable visual references for the tracking algorithms.
 
+The assembly includes a positioning key to prevent the spheres from rotating, an M3 brass threaded insert and an M3 screw. An ArUco marker was also incorporated as an alternative visual tracking method.
+
+![Custom-designed tracking stylus](images/boceto.jpg)
+
 It features four reference spheres arranged asymmetrically along its body. Their different positions make it possible to distinguish the stylus in space and determine how it is oriented.
-
-An ArUco marker was also incorporated as an alternative visual tracking method.
-
-The design was created in SolidWorks and manufactured using 3D printing. The assembly includes a positioning key to prevent the spheres from rotating, an M3 brass threaded insert and an M3 screw.
-
-The reference spheres were painted matte white to improve visibility and reduce unwanted reflections.
 
 <model-viewer
   src="./images/stylus.glb"
   alt="3D model of the custom-designed tracking stylus"
   camera-controls
   auto-rotate
+  camera-orbit="225deg 75deg 105%"
   shadow-intensity="1"
   exposure="1"
-  style="width: 100%; height: 450px; background-color: transparent;">
+  style="
+    width: 100%;
+    height: 450px;
+    background-color: var(--light);
+    border-radius: 12px;
+  ">
 </model-viewer>
 
+
+The design was created in SolidWorks and manufactured using 3D printing. The reference spheres were painted matte white to improve visibility and reduce unwanted reflections.
+![Custom-designed tracking stylus](images/3dprint.jpg)
 ### 2. Camera Support and Lighting
 
 A stable camera position is essential for accurate motion tracking.
 
 We designed a mounting structure for the Intel RealSense D405 using 4 mm acrylic sheets. The parts were designed in CAD, cut using a laser cutter and mounted onto a 20 × 20 mm aluminium profile.
 
-The structure also includes a circular LED light to provide more consistent illumination during image capture.
+The structure also includes a circular LED light to provide more consistent illumination during image capture. We added lateral acrylic reinforcements to improve rigidity and reduce vibrations.
 
-During testing, the horizontal support showed some oscillation. We added lateral acrylic reinforcements to improve rigidity and reduce vibrations.
-
-![Custom-designed tracking stylus](images/stylus-final.jpg)
+![Custom-designed tracking stylus](images/soporte_bot.jpg)
 
 ### 3. Control Panel Design
 
@@ -82,7 +87,7 @@ The enclosure was designed around a Raspberry Pi 4 Model B and a connection boar
 
 The enclosure was modelled in SolidWorks and manufactured using 3D printing. Its design was divided into a main body and a removable top cover to make assembly and access to the electronics easier.
 
-![Custom-designed tracking stylus](images/stylus-final.jpg)
+![Custom-designed tracking stylus](images/case.jpg)
 
 ### 4. Camera-Based Motion Tracking
 
@@ -109,7 +114,7 @@ Once detected, the centre of each sphere can be estimated in the image. Depth in
 
 By combining the positions of the four spheres, the system can estimate the position and orientation of the stylus.
 
-![Custom-designed tracking stylus](images/stylus-final.jpg)
+![Sphere tracking](images/balls.jpg)
 
 #### ArUco Marker Tracking
 
@@ -121,7 +126,7 @@ We implemented marker detection and pose estimation using OpenCV. The resulting 
 
 Using two different tracking approaches allowed us to explore alternative ways of estimating the stylus movement.
 
-![Custom-designed tracking stylus](images/stylus-final.jpg)
+![Alternate tracking](images/tracking.jpg)
 
 ### 5. Stylus Position and Orientation
 
@@ -132,9 +137,6 @@ The tracking information is processed to estimate the position of the stylus tip
 We also developed a geometric simulation in Python using NumPy, SciPy and Matplotlib. It was used to study the relationship between the reference points on the stylus, its orientation and the position of its tip.
 
 This provided a way to test and visualise the geometry behind the tracking system.
-
-![Custom-designed tracking stylus](images/stylus-final.jpg)
-
 ### 6. Robot Communication and Control
 
 The final stage connects the tracking system to the physical robotic arm.
@@ -147,13 +149,13 @@ The robot can then reproduce the movements of the stylus in real time.
 
 This is what brings the different parts of the project together: the physical stylus, camera-based tracking, coordinate transformations and robot control.
 
-![Custom-designed tracking stylus](images/stylus-final.jpg)
-
 ### 7. Electronics and User Interface
 
 The electronic system was built around a Raspberry Pi 4 Model B.
 
 We designed and prototyped the control electronics, including the connections for the buttons and status LEDs. The PCB was designed using EasyEDA, and the circuit was assembled and tested.
+
+![Custom-designed tracking stylus](images/pcb.jpg)
 
 We also designed a graphical user interface to provide information about the system and allow the operator to interact with it.
 
@@ -167,21 +169,7 @@ The interface included operating status, robot status, movement speed, notificat
     
 - **Mirror:** Mirrors the movements.
 
-![Custom-designed tracking stylus](images/stylus-final.jpg)
-
-<AsyncImage query="Figma robotic arm control dashboard GUI interface prototype" aspectRatio="16:9"/>
-## Technologies and Tools
-
-|Area|Technologies|
-|---|---|
-|Mechanical design|SolidWorks, 3D printing, laser cutting|
-|Camera and sensing|Intel RealSense D405, RGB-D imaging|
-|Computer vision|Python, OpenCV, ArUco markers|
-|Geometry and simulation|NumPy, SciPy, Matplotlib|
-|Robot communication|Universal Robots UR5e, RTDE, `ur_rtde`|
-|Electronics|Raspberry Pi 4, EasyEDA, PCB prototyping|
-|User interface|Figma|
-
+![Custom-designed tracking stylus](images/gui.jpg)
 
 ## Project Outcome
 
@@ -192,6 +180,8 @@ We brought together the mechanical, electronic and software components needed to
 One of the most interesting aspects of the project was seeing how different engineering disciplines had to work together to solve a single problem. Mechanical design, camera calibration, computer vision, coordinate transformations and robot control were all essential parts of the same system.
 
 The project gave me practical experience in developing a complete robotic application, working across hardware and software and turning an initial concept into a physical system.
+
+![Custom-designed tracking stylus](images/esquema.jpg)
 
 ## Project Information
 
