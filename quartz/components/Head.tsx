@@ -1,3 +1,4 @@
+
 import { i18n } from "../i18n"
 import { FullSlug, getFileExtension, joinSegments, pathToRoot } from "../util/path"
 import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/resources"
@@ -104,6 +105,12 @@ export default (() => {
             return resource
           }
         })}
+
+        {/* 3D model viewer for GLB files */}
+        <script
+          type="module"
+          src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.4.0/model-viewer.min.js"
+        ></script>
       </head>
     )
   }
