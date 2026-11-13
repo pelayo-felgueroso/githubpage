@@ -2,7 +2,7 @@
 
 Instead of keeping your notes as separate documents, you can link ideas together and build a network of knowledge.
 
-For example, if I write a note about [[Computer Vision]], I can link it to [[Cameras]], [[Machine Learning]], [[Image Processing]], [[Robotics]], and many other topics.
+For example, if I write a note about Computer Vision, I can link it to Cameras, Machine Learning, Image Processing, Robotics, and many other topics.
 
 This is what I like most about Obsidian. The notes are not just a collection of information, the connections between them are part of the knowledge.
 
