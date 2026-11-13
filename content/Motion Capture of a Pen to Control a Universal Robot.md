@@ -1,7 +1,7 @@
 <text>**Semester 2024/2025 · EU4M Mechatronics · SUPMICROTECH, Besançon, France**</text>
 ## Project Overview
 
-What if you could control a robotic arm simply by moving a pen through the air?
+**What if you could control a robotic arm simply by moving a pen through the air?**
 
 That was the idea behind this project. We developed a motion-tracking system that allows a user to control a Universal Robots UR5e robotic arm by moving a custom-designed stylus.
 

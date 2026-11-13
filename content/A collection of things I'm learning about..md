@@ -1,8 +1,12 @@
-My name is [[Pelayo Felgueroso]], I like learning by connecting ideas. Whenever I get interested in something, I tend to go down the rabbit hole, take notes, break things down and connect what I'm learning to things I already know.
+My name is [[Pelayo Felgueroso]], and I like learning by connecting ideas. Whenever I get interested in something, I tend to go down the rabbit hole, take notes, break things down and connect what I'm learning to things I already know.
 
 Over the years, I've built up a collection of notes on all sorts of topics using [[Obsidian]]. I've decided to make them public in the hope that they might be useful to someone else along the way.
 
-You could, of course, just ask ChatGPT, but I think there's something different about exploring a collection of interconnected notes. You might come here looking for one thing, but find other things you didn't even know you needed to learn about.
+Of course, you could just ask ChatGPT or another [[LLM]] whenever you forget something. But I don't really like having to do that every time and getting a different answer each time.
+
+When I finally understand a concept after spending time researching it, I want to keep that explanation, along with the other concepts and ideas that helped me get there. That way, when I come back to it months later, I don't have to spend another hour researching everything just to remember how it all fits together.
+
+That's what I like about these notes. Maybe you will too.
 
 That's the idea behind this vault: concise, structured and (hopefully) accurate knowledge, with an emphasis on how things fit together.
 

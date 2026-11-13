@@ -1,6 +1,6 @@
 ## Explanation
 
-Morphological Operations are image processing techniques used to modify the shape and structure of objects in an image.
+**Morphological Operations** are image processing techniques used to modify the shape and structure of objects in an image.
 
 They are based on the shape of a small element called a [[Structuring Element]], which is moved across the image to perform operations on its pixels.
 

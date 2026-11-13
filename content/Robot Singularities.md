@@ -1,6 +1,6 @@
 ## Explanation
 
-A robot singularity is a position where the robot loses the ability to move freely in certain directions.
+A **robot singularity** is a position where the robot loses the ability to move freely in certain directions.
 
 This usually happens because some of its joints become aligned, making certain movements impossible or requiring very large joint velocities to achieve small movements of the [[End Effector]].
 

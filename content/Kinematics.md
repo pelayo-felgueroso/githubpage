@@ -1,6 +1,6 @@
 ## Explanation
 
-Kinematics is about understanding how a robot moves. It describes how the position and orientation of its different parts change when its joints move, without looking at the forces involved.
+**Kinematics** is about understanding how a robot moves. It describes how the position and orientation of its different parts change when its joints move, without looking at the forces involved.
 
 There are two main concepts: [[Forward Kinematics]], which calculates where the robot's end effector is based on its joint positions, and [[Inverse Kinematics]], which does the opposite by finding the joint positions needed to reach a target.
 

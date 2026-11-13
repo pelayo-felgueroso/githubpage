@@ -1,6 +1,6 @@
 ## Explanation
 
-Erosion is a morphological operation that shrinks the foreground objects in a binary image.
+**Erosion** is a morphological operation that shrinks the foreground objects in a binary image.
 
 It works by removing pixels from the boundaries of objects based on a [[Structuring Element]]. This makes objects smaller and can help remove small noise or separate objects that are connected.
 

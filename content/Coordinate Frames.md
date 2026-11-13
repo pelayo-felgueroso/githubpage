@@ -1,6 +1,6 @@
 ## Explanation
 
-Robots use coordinate frames to describe the position and orientation of their different parts. For example, a robot arm, its end effector and a camera can each have their own coordinate frame.
+Robots use **coordinate frames** to describe the position and orientation of their different parts. For example, a robot arm, its end effector and a camera can each have their own coordinate frame.
 
 [[Coordinate Transformations]] allow us to express the position of one frame relative to another. This is important when combining information from different parts of a robot or from external sensors.
 

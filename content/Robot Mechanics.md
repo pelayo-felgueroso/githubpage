@@ -1,6 +1,6 @@
 ## Explanation
 
-Robot mechanics is about the physical structure of a robot and how its different parts work together to produce movement.
+**Robot mechanics** is about the physical structure of a robot and how its different parts work together to produce movement.
 
 A robot is usually made of rigid parts called [[Robot Links]], connected by [[Robot Joints]]. These joints allow the robot to move, while [[Actuators]] provide the force needed to produce that movement.
 

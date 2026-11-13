@@ -1,6 +1,6 @@
 ## Explanation
 
-Closing is a morphological operation that combines [[Dilation]] followed by [[Erosion]], using the same [[Structuring Element]].
+**Closing** is a morphological operation that combines [[Dilation]] followed by [[Erosion]], using the same [[Structuring Element]].
 
 It is mainly used to fill small holes and gaps inside foreground objects and connect nearby regions while preserving their overall shape.
 ## Resources

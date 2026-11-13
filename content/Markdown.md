@@ -1,6 +1,6 @@
 ## Explanation
 
-Markdown is a lightweight markup language used to format and structure plain text using simple symbols.
+**Markdown** is a lightweight markup language used to format and structure plain text using simple symbols.
 
 It allows you to create headings, lists, links, images, tables and code blocks without needing a visual editor or complex formatting tools.
 

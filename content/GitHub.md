@@ -1,6 +1,6 @@
 ## Explanation
 
-GitHub is a cloud-based platform for hosting, managing and collaborating on software projects using [[Git]], a version control system.
+**GitHub** is a cloud-based platform for hosting, managing and collaborating on software projects using [[Git]], a version control system.
 
 It allows developers to store code and project files in repositories, track changes over time, work on different versions through branches and collaborate with others.
 

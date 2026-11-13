@@ -1,6 +1,6 @@
 ## Explanation
 
-Git is a distributed version control system used to track changes in files over time, particularly in software development.
+**Git** is a distributed version control system used to track changes in files over time, particularly in software development.
 
 It allows you to keep a history of your project, compare different versions, revert changes and work on separate branches without affecting the main version.
 

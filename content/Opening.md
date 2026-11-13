@@ -1,6 +1,6 @@
 ## Explanation
 
-Opening is a morphological operation that combines [[Erosion]] followed by [[Dilation]], using the same [[Structuring Element]].
+**Opening** is a morphological operation that combines [[Erosion]] followed by [[Dilation]], using the same [[Structuring Element]].
 
 It is mainly used to remove small objects and noise from an image while preserving the shape and size of larger objects.
 

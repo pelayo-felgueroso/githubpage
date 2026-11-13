@@ -1,6 +1,6 @@
 ## Explanation
 
-A Structuring Element is a small matrix or kernel used in [[Morphological Operations]] to examine and modify the shape of objects in an image.
+A **Structuring Element** is a small matrix or kernel used in [[Morphological Operations]] to examine and modify the shape of objects in an image.
 
 It acts as a small pattern that moves across an image. At each position, it determines which pixels should be kept, removed or added depending on the operation being performed.
 

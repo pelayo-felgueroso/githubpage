@@ -1,6 +1,6 @@
 ## Explanation
 
-Robotics is a field of engineering focused on designing, building and programming robots that can interact with the physical world. It brings together different areas such as mechanical engineering, electronics, programming, control systems and artificial intelligence.
+**Robotics** is a field of engineering focused on designing, building and programming robots that can interact with the physical world. It brings together different areas such as mechanical engineering, electronics, programming, control systems and artificial intelligence.
 
 Every robot has a physical structure made of links, joints and motors, which determines how it can move and interact with its environment. This is where [[Robot Mechanics]] and [[Kinematics]] comes in. It helps us understand how the different parts of a robot move and how their positions are related.
 
