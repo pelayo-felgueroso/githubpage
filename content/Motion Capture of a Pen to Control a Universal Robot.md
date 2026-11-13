@@ -11,6 +11,8 @@ The goal was to create a more intuitive way for a person to interact with an ind
 
 The project brought together mechanical design, computer vision, electronics and robotics, combining hardware and software into a working control system.
 
+![Complete motion tracking setup](images/setup.jpg)
+
 ## How Does It Work?
 
 The system is built around three main components:
@@ -20,9 +22,6 @@ The system is built around three main components:
 2. **The camera and processing system:** An Intel RealSense D405 captures images and depth information. Computer vision algorithms use this data to estimate the stylus movements.
     
 3. **The robotic arm:** A Universal Robots UR5e receives movement commands and reproduces the movements of the stylus.
-    
-
-<AsyncImage query="Universal Robots UR5e robotic arm with Intel RealSense depth camera laboratory setup" aspectRatio="16:9"/>
 
 When the user moves the stylus, the camera captures its movement. The software processes the images, estimates the stylus pose and converts it into coordinates for the robot. These coordinates are then sent to the UR5e, which follows the corresponding movements.
 
@@ -40,7 +39,15 @@ The design was created in SolidWorks and manufactured using 3D printing. The ass
 
 The reference spheres were painted matte white to improve visibility and reduce unwanted reflections.
 
-<AsyncImage query="custom 3D printed motion capture tracking stylus with four white spheres and ArUco marker" aspectRatio="16:9"/>
+<model-viewer
+  src="./images/stylus.glb"
+  alt="3D model of the custom-designed tracking stylus"
+  camera-controls
+  auto-rotate
+  shadow-intensity="1"
+  exposure="1"
+  style="width: 100%; height: 450px; background-color: transparent;">
+</model-viewer>
 
 ### 2. Camera Support and Lighting
 
@@ -52,7 +59,7 @@ The structure also includes a circular LED light to provide more consistent illu
 
 During testing, the horizontal support showed some oscillation. We added lateral acrylic reinforcements to improve rigidity and reduce vibrations.
 
-<AsyncImage query="laser cut acrylic Intel RealSense camera mounting bracket aluminium extrusion engineering project" aspectRatio="16:9"/>
+![Custom-designed tracking stylus](images/stylus-final.jpg)
 
 ### 3. Control Panel Design
 
@@ -75,7 +82,7 @@ The enclosure was designed around a Raspberry Pi 4 Model B and a connection boar
 
 The enclosure was modelled in SolidWorks and manufactured using 3D printing. Its design was divided into a main body and a removable top cover to make assembly and access to the electronics easier.
 
-<AsyncImage query="3D printed Raspberry Pi electronics control panel enclosure LCD buttons LEDs engineering prototype" aspectRatio="16:9"/>
+![Custom-designed tracking stylus](images/stylus-final.jpg)
 
 ### 4. Camera-Based Motion Tracking
 
@@ -102,7 +109,7 @@ Once detected, the centre of each sphere can be estimated in the image. Depth in
 
 By combining the positions of the four spheres, the system can estimate the position and orientation of the stylus.
 
-<AsyncImage query="computer vision white sphere detection OpenCV binary mask contour tracking camera image" aspectRatio="16:9"/>
+![Custom-designed tracking stylus](images/stylus-final.jpg)
 
 #### ArUco Marker Tracking
 
@@ -114,7 +121,7 @@ We implemented marker detection and pose estimation using OpenCV. The resulting 
 
 Using two different tracking approaches allowed us to explore alternative ways of estimating the stylus movement.
 
-<AsyncImage query="OpenCV ArUco marker pose estimation camera image coordinate axes" aspectRatio="16:9"/>
+![Custom-designed tracking stylus](images/stylus-final.jpg)
 
 ### 5. Stylus Position and Orientation
 
@@ -126,7 +133,7 @@ We also developed a geometric simulation in Python using NumPy, SciPy and Matplo
 
 This provided a way to test and visualise the geometry behind the tracking system.
 
-<AsyncImage query="Python Matplotlib 3D geometric simulation stylus pen orientation coordinate axes" aspectRatio="16:9"/>
+![Custom-designed tracking stylus](images/stylus-final.jpg)
 
 ### 6. Robot Communication and Control
 
@@ -140,7 +147,7 @@ The robot can then reproduce the movements of the stylus in real time.
 
 This is what brings the different parts of the project together: the physical stylus, camera-based tracking, coordinate transformations and robot control.
 
-<AsyncImage query="Universal Robots UR5e robot arm laboratory robotic manipulation demonstration" aspectRatio="16:9"/>
+![Custom-designed tracking stylus](images/stylus-final.jpg)
 
 ### 7. Electronics and User Interface
 
@@ -159,9 +166,8 @@ The interface included operating status, robot status, movement speed, notificat
 - **Scale:** Applies a scaling factor to the movements.
     
 - **Mirror:** Mirrors the movements.
-    
 
-<AsyncImage query="custom PCB electronics Raspberry Pi control interface prototype" aspectRatio="16:9"/>
+![Custom-designed tracking stylus](images/stylus-final.jpg)
 
 <AsyncImage query="Figma robotic arm control dashboard GUI interface prototype" aspectRatio="16:9"/>
 ## Technologies and Tools
@@ -175,6 +181,7 @@ The interface included operating status, robot status, movement speed, notificat
 |Robot communication|Universal Robots UR5e, RTDE, `ur_rtde`|
 |Electronics|Raspberry Pi 4, EasyEDA, PCB prototyping|
 |User interface|Figma|
+
 
 ## Project Outcome
 
