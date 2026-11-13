@@ -1,5 +1,5 @@
---- 
-title: "Vision-Language-Action Models"
+---
+title: Vision-Language-Action Models
 ---
 ## Explanation
 
