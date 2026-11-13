@@ -2,11 +2,11 @@
 
 Image Processing is the field of working with digital images to improve them, extract information or prepare them for further analysis.
 
-A digital image is made up of [[pixels]], each containing information about colour or intensity. By applying different operations to these pixels, we can modify the image or extract useful information from it.
+A digital image is made up of [[Pixels]], each containing information about colour or intensity. By applying different operations to these pixels, we can modify the image or extract useful information from it.
 
 Some common techniques include:
 
-- **[[Filtering]]:** Reducing noise or highlighting specific details.
+- **[[Image Filtering]]:** Reducing noise or highlighting specific details.
     
 - **[[Thresholding]]:** Separating objects from the background based on pixel intensity.
     
