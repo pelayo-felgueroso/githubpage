@@ -42,13 +42,19 @@ def run(command, cwd=REPO):
     )
 
 
+def pull_latest():
+    print("\n[1/6] Synchronizing repository with GitHub...")
+
+    run(["git", "pull", "--ff-only", "origin", "main"])
+
+
 def copy_vault():
-    print("\n[1/5] Synchronizing Obsidian notes...")
+    print("\n[2/6] Synchronizing Obsidian notes...")
 
     CONTENT.mkdir(parents=True, exist_ok=True)
 
     # Remove destination files that no longer exist
-    # in the source vault, without touching other folders.
+    # in the source vault, without touching excluded folders.
     for path in sorted(CONTENT.rglob("*"), reverse=True):
         relative = path.relative_to(CONTENT)
 
@@ -91,7 +97,7 @@ def copy_vault():
 
 
 def generate_homepage():
-    print("\n[2/5] Generating homepage...")
+    print("\n[3/6] Generating homepage...")
 
     source = VAULT / WELCOME_NOTE
 
@@ -131,13 +137,13 @@ def generate_homepage():
 
 
 def build_website():
-    print("\n[3/5] Building Quartz...")
+    print("\n[4/6] Building Quartz...")
 
     run(["npx.cmd", "quartz", "build"])
 
 
 def publish_git():
-    print("\n[4/5] Publishing to GitHub...")
+    print("\n[5/6] Publishing to GitHub...")
 
     run(["git", "add", "content"])
 
@@ -187,24 +193,44 @@ def main():
             "node_modules not found. Run npm install first."
         )
 
-    if (subprocess.run(
+    # Check that the repository is clean before pulling.
+    status = subprocess.run(
         ["git", "status", "--porcelain"],
         cwd=REPO,
         capture_output=True,
         text=True,
         check=True
-    ).stdout.strip()):
+    ).stdout.strip()
+
+    if status:
         raise RuntimeError(
             "You have uncommitted changes in the repository. "
             "Commit or stash them before publishing."
         )
+
+    # Make sure we are on main.
+    branch = subprocess.run(
+        ["git", "branch", "--show-current"],
+        cwd=REPO,
+        capture_output=True,
+        text=True,
+        check=True
+    ).stdout.strip()
+
+    if branch != "main":
+        raise RuntimeError(
+            f"You are on branch '{branch}', not 'main'. "
+            "Switch to main before publishing."
+        )
+
+    pull_latest()
 
     copy_vault()
     generate_homepage()
     build_website()
     publish_git()
 
-    print("\n[5/5] Done!")
+    print("\n[6/6] Done!")
     print("GitHub Pages deployment has been triggered.")
     print("https://pelayo-felgueroso.github.io/githubpage/")
 
@@ -215,3 +241,4 @@ if __name__ == "__main__":
     except Exception as error:
         print(f"\nERROR: {error}")
         sys.exit(1)
+
