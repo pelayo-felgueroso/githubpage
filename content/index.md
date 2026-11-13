@@ -1,3 +1,7 @@
+---
+title: "A collection of things I'm learning about"
+---
+
 My name is [[Pelayo Felgueroso]], and I like learning by connecting ideas. Whenever I get interested in something, I tend to go down the rabbit hole, take notes, break things down and connect what I'm learning to things I already know.
 
 Over the years, I've built up a collection of notes on all sorts of topics using [[Obsidian]]. I've decided to make them public in the hope that they might be useful to someone else along the way.
