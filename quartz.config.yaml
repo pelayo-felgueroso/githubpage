@@ -147,7 +147,7 @@ plugins:
   - source: "@quartz-community/tag-page"
     enabled: true
   - source: "@quartz-community/explorer"
-    enabled: false
+    enabled: true
     layout:
       position: left
       priority: 50
@@ -173,7 +173,7 @@ plugins:
         drag: true
         zoom: true
         depth: -1
-        scale: 1
+        scale: 1.2
         repelForce: 0.5
         centerForce: 0.2
         linkDistance: 30
