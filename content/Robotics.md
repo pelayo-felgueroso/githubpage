@@ -27,15 +27,11 @@ _Explore the knowledge network._
     
 - [[Motion Planning]]
     
-- [[Camera]]
+- [[Cameras]]
     
 - [[Gripper]]
-      
-- [[Coordinate Transformation]]
     
 - [[Imitation Learning]]
-    
-- [[Control]]
       
 - [[Robot Simulation]]
  

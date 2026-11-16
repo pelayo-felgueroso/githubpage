@@ -2,19 +2,17 @@
 title: "A collection of things I'm learning about"
 ---
 
-My name is [[Pelayo Felgueroso]], and I like learning by connecting ideas. Whenever I get interested in something, I tend to go down the rabbit hole, take notes, break things down and connect what I'm learning to things I already know.
-
-Over the years, I've built up a collection of notes on all sorts of topics using [[Obsidian]]. I've decided to make them public in the hope that they might be useful to someone else along the way.
+My name is Pelayo Felgueroso. This is a collection of notes I've built up over the years on all sorts of topics, using Obsidian to keep everything organised and connected.
 
 Of course, you could just ask ChatGPT or another [[LLM]] whenever you forget something. But I don't really like having to do that every time and getting a different answer each time.
 
-When I finally understand a concept after spending time researching it, I want to keep that explanation, along with the other concepts and ideas that helped me get there. That way, when I come back to it months later, I don't have to spend another hour researching everything just to remember how it all fits together.
+When I finally understand a concept after spending time researching it, I want to keep that explanation, along with the other ideas that helped me get there. That way, when I come back to it months later, I don't have to spend another hour researching everything just to pick up where I left off.
 
-That's what I like about these notes. Maybe you will too.
+Remembering things is only part of learning. What really matters is understanding how ideas fit together and being able to use what you've learned to think about new things. Learning techniques like the [[PACER Method]] can help with this by offering different ways to process and remember different types of information, rather than simply memorising facts.
 
-That's the idea behind this vault: concise, structured and (hopefully) accurate knowledge, with an emphasis on how things fit together.
+It's a work in progress. Feel free to explore.
 
-It's a work in progress, just like my own learning. Feel free to explore.
+If you'd like to know more [[About Me]], you can find a bit more about my background, career and projects.
 
 <div style="margin: 25px 0;">
   <button

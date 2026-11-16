@@ -34,7 +34,7 @@ _Explore the knowledge network._
 
 - [[Computer Vision]]
     
-- [[Digital Images]]
+- [[Object detection]]
     
 - [[RGB]]
     
