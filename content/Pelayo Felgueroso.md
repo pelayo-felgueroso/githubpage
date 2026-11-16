@@ -13,7 +13,10 @@
   />
 </div>
 
-_Mechatronics Engineer · Machine Vision · Robotics · Applied R&D_
+<p style="text-align: center;">
+  <em>Mechatronics Engineer · Machine Vision · Robotics · Applied R&D</em>
+</p>
+
 ## About me
 
 I'm a Mechatronics Engineer with a background in Mechanical Engineering and experience in Robotics, Machine Vision and Image Processing.
