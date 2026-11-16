@@ -616,6 +616,11 @@ p {
   line-height: 1.6rem;
 }
 
+article p,
+article li {
+  text-align: justify;
+}
+
 .table-container {
   overflow-x: auto;
 
