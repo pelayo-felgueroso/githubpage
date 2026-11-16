@@ -2,7 +2,7 @@
 title: "A collection of things I'm learning about"
 ---
 
-My name is Pelayo Felgueroso. This is a collection of notes I've built up over the years on all sorts of topics, using Obsidian to keep everything organised and connected.
+My name is Pelayo Felgueroso. This is a collection of notes I've built up over the years on all sorts of topics, using [[Obsidian]] to keep everything organised and connected.
 
 Of course, you could just ask ChatGPT or another [[LLM]] whenever you forget something. But I don't really like having to do that every time and getting a different answer each time.
 
