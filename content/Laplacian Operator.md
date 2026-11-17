@@ -17,8 +17,6 @@ _Learn more from external sources._
 - [OpenCV – Laplace Operator](https://docs.opencv.org/4.x/d5/db5/tutorial_laplace_operator.html)
     
 - [OpenCV – Image Filtering Functions](https://docs.opencv.org/4.x/d4/d86/group__imgproc__filter.html)
-    
-
 ## Related concepts
 
 _Explore the knowledge network._

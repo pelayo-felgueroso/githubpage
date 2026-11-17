@@ -27,7 +27,7 @@ It is used in robotics to understand the robot's current configuration and to ca
 
 _Learn more from external sources._
 
-- [PhysicsHigh– Kinematics - The basics](https://www.youtube.com/watch?v=198u1x8TBTo)
+- [PhysicsHigh – Kinematics](https://www.youtube.com/watch?v=198u1x8TBTo)
 ## Related concepts
 
 _Explore the knowledge network._

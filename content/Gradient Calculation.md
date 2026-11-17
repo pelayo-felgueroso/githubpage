@@ -15,8 +15,6 @@ _Learn more from external sources._
 - [OpenCV – Image Gradients](https://docs.opencv.org/4.x/d5/d0f/tutorial_py_gradients.html)
     
 - [OpenCV – Sobel Derivatives](https://docs.opencv.org/4.x/d2/d2c/tutorial_sobel_derivatives.html)
-    
-
 ## Related concepts
 
 _Explore the knowledge network._

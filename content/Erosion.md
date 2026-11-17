@@ -10,9 +10,9 @@ _Learn more from external sources._
 
 - [Morphological Transformations – OpenCV](https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html)
     
-- [ Udacity – Erosion]([https://www.youtube.com/watch?v=uUweXBmm978](https://www.youtube.com/watch?v=rP1KZb3llCY))
+- [Udacity – Erosion](https://www.youtube.com/watch?v=rP1KZb3llCY)
     
-- [ Udacity – Dilation and Erosion](https://www.youtube.com/watch?v=uUweXBmm978)
+- [Udacity – Dilation and Erosion](https://www.youtube.com/watch?v=uUweXBmm978)
 ## Related concepts
 
 _Explore the knowledge network._

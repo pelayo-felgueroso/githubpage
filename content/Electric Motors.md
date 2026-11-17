@@ -11,6 +11,8 @@ In robotics, electric motors are commonly used to drive joints and other moving 
 
 _Learn more from external sources._
 
+- [The Engineering Mindset – How Electric Motors Work](https://www.youtube.com/watch?v=59HBoIXzX_c)
+
 ## Related concepts
 
 _Explore the knowledge network._

@@ -12,6 +12,8 @@ In computer vision and robotics, it is important when choosing a camera and posi
 
 _Learn more from external sources._
 
+- [Udacity - Field of View](https://www.youtube.com/watch?v=pUuAx_zFnEk)
+
 ## Related concepts
 
 _Explore the knowledge network._

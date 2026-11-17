@@ -19,6 +19,8 @@ _Learn more from external sources._
 - [Computerphile – Digital Images](https://www.youtube.com/watch?v=06OHflWNCOE) 
     
 - [Camera Calibration – OpenCV](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html)
+    
+- [MIT – Vision Book: Camera Models](https://visionbook.mit.edu/imaging.html)
 ## Related concepts
 
 - [[Computer Vision]]

@@ -14,6 +14,7 @@ Obsidian uses Markdown to store notes as regular text files, while adding featur
 
 _Learn more from external sources._
 
+- [Markdown Guide](https://www.markdownguide.org/)
 ## Related concepts
 
 _Explore the knowledge network._

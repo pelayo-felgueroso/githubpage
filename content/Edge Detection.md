@@ -12,7 +12,6 @@ Edge detection is useful for tasks such as contour extraction, shape analysis, o
 
 Although deep learning has replaced some traditional approaches in complex applications, these techniques are still useful when the image conditions are controlled or when we need a relatively simple and interpretable solution.
 
-
 ## Resources
 
 _Learn more from external sources._

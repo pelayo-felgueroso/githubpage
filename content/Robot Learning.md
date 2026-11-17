@@ -22,7 +22,6 @@ _Learn more from external sources._
     
 - [NVIDIA – Physical AI and Robotics Learning](https://docs.nvidia.com/learning/physical-ai/robotics.html)
     
-
 ## Related concepts
 
 _Explore the knowledge network._

@@ -12,6 +12,7 @@ It is one of the important parameters in camera calibration and is related to th
 
 _Learn more from external sources._
 
+- [Udacity - Focal Length and Field of View](https://www.youtube.com/watch?v=9O_-9srabGM)
 ## Related concepts
 
 _Explore the knowledge network._

@@ -31,9 +31,11 @@ The Jacobian is also important for identifying [[Robot Singularities]]. At a sin
 
 _Learn more from external sources._
 
-- [Modern Robotics – Singularities](https://modernrobotics.northwestern.edu/nu-gm-book-resource/5-3-singularities/)
-    
 - [Robotics, Control and Machine Learning – Coordinate Frames](https://www.youtube.com/watch?v=Ygb8jzFVA-w)
+    
+- [Kevin Wood – Robotics Singularity (Theory and Physical Interpretation)](https://www.youtube.com/watch?v=BhfBsNYSc7M)
+    
+- [Northwestern Robotics – Modern Robotics: Singularities)](https://www.youtube.com/watch?v=vjJgTvnQpBs)
 
 ## Related concepts
 

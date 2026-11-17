@@ -14,9 +14,10 @@ Tracking is used in applications such as surveillance, autonomous driving, sport
 
 _Learn more from external sources._
 
-- [OpenCV](https://docs.opencv.org/4.13.0/pages.html))
-
+- [First Principles of Computer Vision- Overview | Object Tracking](https://www.youtube.com/watch?v=BLRSIwal7Go)
 ## Related concepts
+
+_Explore the knowledge network._
 
 - [[Computer Vision]]
     

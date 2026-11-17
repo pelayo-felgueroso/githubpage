@@ -10,6 +10,10 @@ Singularities are important in Robot [[Kinematics]] and can cause problems when 
 
 _Learn more from external sources._
 
+- [Kevin Wood – Robotics Singularity (Theory and Physical Interpretation)](https://www.youtube.com/watch?v=BhfBsNYSc7M)
+    
+- [Northwestern Robotics – Modern Robotics: Singularities)](https://www.youtube.com/watch?v=vjJgTvnQpBs)
+
 ## Related concepts
 
 _Explore the knowledge network._

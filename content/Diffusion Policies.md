@@ -10,6 +10,7 @@ Predicting a sequence of actions allows the robot to produce smoother and more f
 
 _Learn more from external sources._
 
+- [Hugging Face - Diffusion Policy](https://www.youtube.com/watch?v=M03sZFfW-qU)
 ## Related concepts
 
 _Explore the knowledge network._

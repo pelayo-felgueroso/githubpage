@@ -9,7 +9,6 @@ The controller continuously compares the desired value (setpoint) with the measu
 - **Integral (I):** Considers the accumulated error over time. It helps eliminate small errors that remain even after the proportional correction.
     
 - **Derivative (D):** Considers how quickly the error is changing. It helps anticipate changes and reduce overshoot.
-    
 
 The three terms are combined to calculate the control output. Their contribution is adjusted using three gains: Kp, Ki and Kd. Choosing these gains is known as PID tuning.
 

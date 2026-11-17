@@ -17,7 +17,6 @@ _Learn more from external sources._
 - [MoveIt 2 – Pick and Place with MoveIt Task Constructor](https://moveit.picknik.ai/main/doc/tutorials/pick_and_place_with_moveit_task_constructor/pick_and_place_with_moveit_task_constructor.html)
     
 - [ROS 2 – ros2_control Documentation](https://control.ros.org/)
-
 ## Related concepts
 
 _Explore the knowledge network._

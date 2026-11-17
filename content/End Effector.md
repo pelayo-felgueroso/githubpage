@@ -8,16 +8,18 @@ Its position and orientation are important when calculating robot movements, esp
 
 ## Resources
 
-## Resources
-
 _Learn more from external sources._
+
+- [Let's Talk About End Effectors](https://www.youtube.com/watch?v=h4pMCnDv_eE)
 
 ## Related concepts
 
 _Explore the knowledge network._
 
-- [[]]
+- [[Robot Mechanics]]
     
-- [[]]
+- [[Actuators]]
     
-- [[]]
+- [[Robot Joints]]
+    
+- [[Motion Planning]]

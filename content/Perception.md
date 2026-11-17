@@ -14,10 +14,7 @@ Perception is therefore not just about detecting objects. It is about turning se
 
 _Learn more from external sources._
 
-- [NVIDIA Isaac ROS – Documentation](https://nvidia-isaac-ros.github.io/)
-    
-- [MoveIt 2 – 3D Perception](https://moveit.picknik.ai/main/doc/concepts/planning_scene_monitor.html)
-
+- [Agility – Explained: How Humanoid Robots Perceive the World](https://www.youtube.com/watch?v=MhRd0vvdaj0)
 ## Related concepts
 
 _Explore the knowledge network._

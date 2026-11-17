@@ -22,12 +22,13 @@ In robotics, detecting an object is only the beginning. A bounding box tells us 
 
 _Learn more from external sources._
 
+- [How computers learn to recognize objects instantly | Joseph Redmon](https://www.youtube.com/watch?v=Cgxsv1riJhI)
 ## Related concepts
 
 _Explore the knowledge network._
 
-- [[]]
+- [[Image Processing]]
     
-- [[]]
+- [[Object Tracking]]
     
-- [[]]
+- [[Image Classification]]
