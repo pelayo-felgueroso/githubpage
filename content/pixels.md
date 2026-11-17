@@ -1,3 +1,6 @@
+---
+title: Pixels
+---
 ## Explanation
 
 _A concise explanation of the concept. Link other concepts._
