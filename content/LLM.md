@@ -15,6 +15,12 @@ Examples include ChatGPT, Claude and Gemini.
 
 _Learn more from external sources._
 
+- [Computerphile – Why AI Tokens are so Expensive](https://www.youtube.com/watch?v=-0HRzXk8vlk)
+    
+- [Computerphile – AI Language  Models & Transformers](https://www.youtube.com/watch?v=rURRYI66E54)
+    
+- [Ilia – LLMs Meet Robotics: What Are Vision-Language-Action Models?](https://www.youtube.com/watch?v=8dZUOo5xWFw) 
+
 ## Related concepts
 
 _Explore the knowledge network._

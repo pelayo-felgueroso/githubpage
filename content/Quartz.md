@@ -10,6 +10,8 @@ It is particularly useful for publishing an [[Obsidian]] vault while preserving 
 
 ## Resources
 
+_Learn more from external sources._
+
 - [Quartz GitHub Repository](https://github.com/jackyzha0/quartz)
 
 ## Related concepts

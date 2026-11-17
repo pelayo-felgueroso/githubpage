@@ -22,6 +22,8 @@ The goal is not to remember every word, but to retain the knowledge that matters
 
 ## Resources
 
+_Learn more from external sources._
+
 [PACER Method: How to Remember Everything You Read](https://www.youtube.com/)
 
 ## Related concepts
@@ -31,5 +33,3 @@ _Explore the knowledge network._
 - [[Note-Taking]]
     
 - [[Obsidian]]
-    
-- [[]]

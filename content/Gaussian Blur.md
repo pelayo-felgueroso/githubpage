@@ -10,8 +10,11 @@ The main drawback is that it also removes fine details and can make object bound
 
 ## Resources
 
-[OpenCV – Smoothing Images](https://docs.opencv.org/4.x/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html)
+_Learn more from external sources._
 
+- [OpenCV – Smoothing Images](https://docs.opencv.org/4.x/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html)
+    
+- [Computerphile – How Blurs & Filters Work](https://www.youtube.com/watch?v=C_zFhWdM4ic)
 ## Related concepts
 
 _Explore the knowledge network._
@@ -20,4 +23,4 @@ _Explore the knowledge network._
     
 - [[Bilateral Filter]]
     
-- [[]]
+- [[Image Filtering]]

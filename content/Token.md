@@ -12,6 +12,8 @@ Tokens are important because they determine how much text a model can process at
 
 _Learn more from external sources._
 
+- [Computerphile – Why AI Tokens are so Expensive](https://www.youtube.com/watch?v=-0HRzXk8vlk)
+
 ## Related concepts
 
 _Explore the knowledge network._

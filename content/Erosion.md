@@ -8,6 +8,11 @@ It works by removing pixels from the boundaries of objects based on a [[Structur
 
 _Learn more from external sources._
 
+- [Morphological Transformations – OpenCV](https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html)
+    
+- [ Udacity – Erosion]([https://www.youtube.com/watch?v=uUweXBmm978](https://www.youtube.com/watch?v=rP1KZb3llCY))
+    
+- [ Udacity – Dilation and Erosion](https://www.youtube.com/watch?v=uUweXBmm978)
 ## Related concepts
 
 _Explore the knowledge network._

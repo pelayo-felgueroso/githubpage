@@ -10,12 +10,17 @@ The number and type of joints determine the robot's [[Degrees of Freedom (DOF)]]
 
 _Learn more from external sources._
 
+- [Northwestern Robotics – Modern Robotics, Chapter 2.2: Degrees of Freedom of a Robot](https://www.youtube.com/watch?v=zI64DyaRUvQ)
 ## Related concepts
 
 _Explore the knowledge network._
 
-- [[]]
+- [[Robotics]]
     
-- [[]]
+- [[Robot Joints]]
     
-- [[]]
+- [[Robot Mechanics]]
+    
+- [[Kinematics]]
+    
+- [[End Effector]]

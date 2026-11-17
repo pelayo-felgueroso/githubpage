@@ -14,12 +14,30 @@ Computer Vision is closely related to [[Image Processing]], but they are not exa
 
 _Learn more from external sources._
 
+- [OpenCV Tutorials](https://docs.opencv.org/4.x/d9/df8/tutorial_root.html)
+    
+- [Computerphile – Digital Images](https://www.youtube.com/watch?v=06OHflWNCOE)
+    
+- [Computerphile – Capturing Digital Images (The Bayer Filter)](https://www.youtube.com/watch?v=LWxu4rkZBLw)
+    
+- [Computerphile – Finding the Edges (Sobel Operator)](https://www.youtube.com/watch?v=uihBwtPIBxM)
+    
+- [Computerphile – How Blurs & Filters Work](https://www.youtube.com/watch?v=C_zFhWdM4ic)
+
 ## Related concepts
 
 _Explore the knowledge network._
 
-- [[]]
+- [[Artificial Intelligence]]
     
-- [[]]
+- [[Image Processing]]
     
-- [[]]
+- [[Image Segmentation]]
+    
+- [[Object Detection]]
+    
+- [[Depth Estimation]]
+    
+- [[Cameras]]
+    
+- [[Robotics]]

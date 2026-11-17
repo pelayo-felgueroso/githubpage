@@ -10,16 +10,15 @@ For example, if a camera detects an object, we need to transform its position fr
 
 _Learn more from external sources._
 
+- [Robotics, Control and Machine Learning – Coordinate Frames](https://www.youtube.com/watch?v=Ygb8jzFVA-w)
 ## Related concepts
 
 _Explore the knowledge network._
 
 - [[Kinematics]]
     
-- [[Forward Kinematics]]
+- [[End Effector]]
     
-- [[Inverse Kinematics]]
+- [[Cameras]]
     
 - [[Computer Vision]]
-    
-- [[Camera Calibration]]

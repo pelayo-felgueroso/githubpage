@@ -30,12 +30,18 @@ A small calibration error can produce a significant positioning error when the r
 
 _Learn more from external sources._
 
+- [OpenCV – Camera Calibration](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html)
+    
+- [OpenCV – Camera Calibration and 3D Reconstruction](https://docs.opencv.org/4.x/d9/d0c/group__calib3d.html)
+
 ## Related concepts
 
 _Explore the knowledge network._
 
 - [[Cameras]]
     
-- [[]]
+- [[Pinhole Camera Model]]
     
-- [[]]
+- [[Focal Length]]
+    
+- [[Computer Vision]]

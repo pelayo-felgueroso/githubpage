@@ -8,6 +8,8 @@ It is mainly used to remove small objects and noise from an image while preservi
 
 _Learn more from external sources._
 
+- [Udacity – Opening](https://www.youtube.com/watch?v=GRxrfOTyoOM)
+
 ## Related concepts
 
 _Explore the knowledge network._

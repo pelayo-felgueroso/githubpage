@@ -21,6 +21,7 @@ Structuring elements are used in operations such as [[Erosion]], [[Dilation]], [
 
 _Learn more from external sources._
 
+- [Udacity – Structuring Element](https://www.youtube.com/watch?v=9lqH5XLI-V4)
 ## Related concepts
 
 _Explore the knowledge network._

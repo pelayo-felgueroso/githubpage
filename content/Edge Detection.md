@@ -1,6 +1,6 @@
 ## Explanation
 
-Edge detection is an image processing technique used to find boundaries between different . These boundaries usually correspond to changes in brightness, colour or texture, and often indicate where one object or region ends and another begins.
+Edge detection is an image processing technique used to find boundaries between different regions in an image. These boundaries usually correspond to changes in brightness, colour or texture, and often indicate where one object or region ends and another begins.
 
 The basic idea is to look for strong changes in pixel intensity. This is usually done by calculating image gradients, which describe how quickly the intensity changes in horizontal and vertical directions.
 
@@ -17,6 +17,7 @@ Although deep learning has replaced some traditional approaches in complex appli
 
 _Learn more from external sources._
 
+- [Computerphile – Finding the Edges (Sobel Operator)](https://www.youtube.com/watch?v=uihBwtPIBxM)
 ## Related concepts
 
 _Explore the knowledge network._

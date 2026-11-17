@@ -21,7 +21,7 @@ Some of its main concepts are:
 - **Pull:** Retrieves changes from a remote repository and integrates them into your local project.
     
 - **Push:** Uploads your local commits to a remote repository.
-    
+
 
 Git is commonly used together with [[GitHub]], which provides online hosting and collaboration tools for Git repositories.
 
@@ -35,3 +35,5 @@ _Learn more from external sources._
 _Explore the knowledge network._
 
 - [[GitHub]]
+    
+- [[GitHub Pages]]

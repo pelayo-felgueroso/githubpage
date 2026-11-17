@@ -1,17 +1,53 @@
 ## Explanation
 
-_A concise explanation of the concept. Link other concepts._
+Sensors are devices that measure physical properties of the environment or a system and convert them into information that can be processed.
+
+In robotics, sensors provide information about the robot itself and its surroundings. They can measure quantities such as position, distance, acceleration, force, temperature or light.
+
+Common examples include:
+
+- Cameras, which capture visual information.
+    
+- LiDAR sensors, which measure distances using laser light.
+    
+- Encoders, which measure the position or rotation of a joint or motor.
+    
+- IMUs, which measure acceleration and angular velocity.
+    
+- Force and torque sensors, which measure forces acting on a robot.
+    
+
+The information collected by sensors is used by the robot's control and perception systems to understand its state and interact with the environment.
+
+Many robotic applications combine information from several sensors to obtain a more complete and reliable estimate of the environment. This is known as sensor fusion.
+
+The choice of sensor depends on the application, measurement range, accuracy, update rate, environmental conditions and cost.
 
 ## Resources
 
 _Learn more from external sources._
 
+- [ROS 2 – sensor_msgs Documentation](https://docs.ros.org/en/rolling/p/sensor_msgs/)
+    
+- [NVIDIA Isaac Sim – Sensors](https://docs.isaacsim.omniverse.nvidia.com/latest/sensors/index.html)
+    
+- [ROS 2 – image_pipeline](https://docs.ros.org/en/rolling/p/image_pipeline/)
+    
+
 ## Related concepts
 
 _Explore the knowledge network._
 
-- [[]]
+- [[Robotics]]
     
-- [[]]
+- [[Perception]]
     
-- [[]]
+- [[Cameras]]
+    
+- [[RGB Camera]]
+    
+- [[RGB-D Camera]]
+    
+- [[Point Clouds]]
+    
+- [[Robot Simulation]]

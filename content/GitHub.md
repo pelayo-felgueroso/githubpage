@@ -15,8 +15,6 @@ _Learn more from external sources._
 
 _Explore the knowledge network._
 
-- [[]]
+- [[Git]]
     
-- [[]]
-    
-- [[]]
+- [[GitHub Pages]]

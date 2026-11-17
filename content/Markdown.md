@@ -20,6 +20,4 @@ _Explore the knowledge network._
 
 - [[Quartz]]
     
-- [[]]
-    
-- [[]]
+- [[Obsidian]]

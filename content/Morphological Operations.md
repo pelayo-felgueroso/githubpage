@@ -21,6 +21,12 @@ These operations can also be combined to create more advanced techniques:
 
 _Learn more from external sources._
 
+- [ Udacity – Basic Morphological Algorithms](https://www.youtube.com/watch?v=SfHJlinkPK8)
+    
+- [Morphological Filtering – scikit-image](https://scikit-image.org/docs/stable/auto_examples/applications/plot_morphology.html)
+    
+- [ Udacity – Dilation and Erosion](https://www.youtube.com/watch?v=uUweXBmm978)
+
 ## Related concepts
 
 _Explore the knowledge network._

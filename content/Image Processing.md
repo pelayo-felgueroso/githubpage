@@ -21,12 +21,15 @@ Image Processing is closely related to [[Computer Vision]], where processed imag
 
 _Learn more from external sources._
 
-- 
+- [OpenCV Tutorials](https://docs.opencv.org/4.x/d9/df8/tutorial_root.html)
     
-- 
+- [Computerphile – Digital Images](https://www.youtube.com/watch?v=06OHflWNCOE)
     
-- 
+- [Computerphile – Capturing Digital Images (The Bayer Filter)](https://www.youtube.com/watch?v=LWxu4rkZBLw)
     
+- [Computerphile – Finding the Edges (Sobel Operator)](https://www.youtube.com/watch?v=uihBwtPIBxM)
+    
+- [Computerphile – How Blurs & Filters Work](https://www.youtube.com/watch?v=C_zFhWdM4ic)
 
 ## Related concepts
 
