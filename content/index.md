@@ -2,17 +2,13 @@
 title: "A collection of things I'm learning about"
 ---
 
-My name is Pelayo Felgueroso. This is a collection of notes I've built up over the years on all sorts of topics, using [[Obsidian]] to keep everything organised and connected.
+This is a personal collection of notes on different topics, built up over time. It includes explanations, practical knowledge, references and connections between ideas. The purpose is simply to understand things better, keep track of what I've learned and have it all in one place to come back to.
 
-Of course, you could just ask ChatGPT or another [[LLM]] whenever you forget something. But I don't really like having to do that every time and getting a different answer each time.
+The notes are organised in an [[Obsidian]] vault and published through [[GitHub Pages]], which makes it possible to access the vault from anywhere. It also means the notes are publicly available.
 
-When I finally understand a concept after spending time researching it, I want to keep that explanation, along with the other ideas that helped me get there. That way, when I come back to it months later, I don't have to spend another hour researching everything just to pick up where I left off.
+For some information about my background and professional experience, see [[About Me]].
 
-Remembering things is only part of learning. What really matters is understanding how ideas fit together and being able to use what you've learned to think about new things. Learning techniques like the [[PACER Method]] can help with this by offering different ways to process and remember different types of information, rather than simply memorising facts.
-
-It's a work in progress. Feel free to explore.
-
-If you'd like to know more [[About Me]], you can find a bit more about my background, career and projects.
+**Not sure where to start? Try a random note.**
 
 <div style="margin: 25px 0;">
   <button
