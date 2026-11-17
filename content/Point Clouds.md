@@ -20,7 +20,7 @@ _Learn more from external sources._
 
 - [A Comprehensive Guide to Working with Point Cloud Data](https://voxel51.com/blog/comprehensive-guide-point-cloud-data)
     
-- [WHAT ARE POINT CLOUDS?](https://pointcab-software.com/en/what_are_point_clouds/)
+- [Dronegenuity - What are Point Clouds, And How Are They Used?](https://www.youtube.com/watch?v=yXCkyuo8bcs)
 ## Related concepts
 
 _Explore the knowledge network._

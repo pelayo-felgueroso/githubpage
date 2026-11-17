@@ -1,6 +1,6 @@
 ## Explanation
 
-The Sobel Operator is an image processing technique used to detect edges by calculating changes in pixel intensity.
+The **Sobel Operator** is an image processing technique used to detect edges by calculating changes in pixel intensity.
 
 It applies two convolution kernels to an image. One estimates the intensity gradient in the horizontal direction, while the other estimates it in the vertical direction.
 
@@ -17,6 +17,8 @@ _Learn more from external sources._
 - [OpenCV – Sobel Derivatives](https://docs.opencv.org/4.x/d2/d2c/tutorial_sobel_derivatives.html)
     
 - [OpenCV – Image Gradients](https://docs.opencv.org/4.x/d5/d0f/tutorial_py_gradients.html)
+    
+- [Computerphile – Finding the Edges (Sobel Operator)](https://www.youtube.com/watch?v=uihBwtPIBxM)
 
 ## Related concepts
 

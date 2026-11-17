@@ -12,14 +12,17 @@ Although simulation is useful during development, a simulated environment is nev
 
 ## Resources
 
+_Learn more from external sources._
+
 - [Gazebo – Documentation](https://gazebosim.org/docs/)
     
 - [NVIDIA Isaac Sim – Documentation](https://docs.isaacsim.omniverse.nvidia.com/latest/index.html)
     
 - [MuJoCo – Documentation](https://mujoco.readthedocs.io/)
-    
 
 ## Related concepts
+
+_Explore the knowledge network._
 
 - [[Robotics]]
     

@@ -27,13 +27,7 @@ The choice of sensor depends on the application, measurement range, accuracy, up
 
 _Learn more from external sources._
 
-- [ROS 2 – sensor_msgs Documentation](https://docs.ros.org/en/rolling/p/sensor_msgs/)
-    
-- [NVIDIA Isaac Sim – Sensors](https://docs.isaacsim.omniverse.nvidia.com/latest/sensors/index.html)
-    
-- [ROS 2 – image_pipeline](https://docs.ros.org/en/rolling/p/image_pipeline/)
-    
-
+- [Algorithms for Robotics, Tech & Life – Robotic Sensors for Perception Algorithms](https://www.youtube.com/watch?v=bGC7N2VMPe0)
 ## Related concepts
 
 _Explore the knowledge network._

@@ -16,6 +16,8 @@ Motion planning is used in robotic manipulation, navigation and industrial autom
 
 _Learn more from external sources._
 
+- [Mike Likes Robots – Getting Started with MoveIt](https://www.youtube.com/watch?v=yIVc5Xq0Xm4&t=3021s)
+     
 - [MoveIt 2 – Motion Planning Concepts](https://moveit.ai/documentation/concepts/)
     
 - [MoveIt 2 – Motion Planning Pipeline Tutorial](https://moveit.picknik.ai/main/doc/examples/motion_planning_pipeline/motion_planning_pipeline_tutorial.html)

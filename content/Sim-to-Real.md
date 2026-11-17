@@ -21,7 +21,6 @@ _Learn more from external sources._
 - [NVIDIA Isaac Sim – Domain Randomization](https://docs.isaacsim.omniverse.nvidia.com/latest/replicator_tutorials/index.html)
     
 - [Hugging Face – LeRobot](https://huggingface.co/docs/lerobot/en/index)
-    
 
 ## Related concepts
 

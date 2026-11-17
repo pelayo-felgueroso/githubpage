@@ -16,13 +16,11 @@ ROS 2 is widely used in research and industry to build modular robotic systems. 
 
 _Learn more from external sources._
 
+- [Mike Likes Robots – Getting Started with ROS 2](https://www.youtube.com/watch?v=8aoFndU7jos)
+    
 - [ROS 2 – Official Documentation](https://docs.ros.org/en/rolling/)
     
 - [ROS 2 – Tutorials](https://docs.ros.org/en/rolling/Tutorials.html)
-    
-- [MoveIt 2 – Documentation](https://moveit.picknik.ai/)
-
-
 ## Related concepts
 
 _Explore the knowledge network._

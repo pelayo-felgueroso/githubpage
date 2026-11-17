@@ -20,10 +20,10 @@
 I'm a Mechatronics Engineer with a background in Mechanical Engineering. My career has taken me through different areas of engineering, from mechanical design and metrology to robotics, computer vision and industrial image processing.
 ## Career
 
-**Intom GmbH — Software Engineer, Applied R&D**  
+**Intom GmbH — Software Engineer**  
 _Stockach, Germany · March 2025 – May 2026_
 
-Worked in the Applied R&D team on the development of image processing methods for industrial computed tomography (CT).
+Worked on the development of image processing methods for industrial computed tomography (CT).
 
 A major part of my work focused on image restoration, particularly deblurring. I investigated the physical causes of image blur in CT systems, developed system-specific Point Spread Function (PSF) models and implemented deconvolution algorithms to recover fine image details while controlling noise amplification and reconstruction artifacts. I also developed validation methods to evaluate image quality across different materials, geometries and acquisition configurations.
 

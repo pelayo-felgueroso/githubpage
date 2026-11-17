@@ -19,6 +19,7 @@ In practice, all these areas are connected. For example, imagine a robot that ne
 
 _Learn more from external sources._
 
+- [Mike Likes Robots – Getting Started as a Robotics Software Engineer!](https://www.youtube.com/watch?v=tkYZmw8x-SM)
 ## Related concepts
 
 _Explore the knowledge network._
