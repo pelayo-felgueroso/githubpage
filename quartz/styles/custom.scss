@@ -1,3 +1,12 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Show the site title on phones (the theme hides it below 800px)
+@media all and ($mobile) {
+  .page-title {
+    display: block !important;
+    font-size: 1.3rem;
+    margin-left: 0.75rem;
+    position: relative;
+    z-index: 1000;
+  }
+}// put your custom CSS here!
