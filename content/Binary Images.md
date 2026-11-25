@@ -14,7 +14,7 @@ _Learn more from external sources._
     
 - [Binary Images – scikit-image](https://scikit-image.org/docs/stable/auto_examples/applications/plot_thresholding.html)
     
-- [Computerphile – Digital Images](https://www.youtube.com/results?search_query=Computerphile+Digital+Images+Mike+Pound)
+- [Computerphile – Digital Images](https://www.youtube.com/watch?v=06OHflWNCOE)
 
 ## Related concepts
 

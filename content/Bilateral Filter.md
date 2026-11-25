@@ -14,8 +14,6 @@ _Learn more from external sources._
 
 - [OpenCV – Smoothing Images](https://docs.opencv.org/4.x/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html)
     
-- [Computerphile – How Blurs & Filters Work](https://www.youtube.com/watch?v=R3C2giDfmO8)
-    
 - [First Principles of Computer Vision – Non-Linear Image Filters](https://www.youtube.com/watch?v=7FP7ndMEfsc)
 ## Related concepts
 

@@ -9,7 +9,7 @@ _Learn more from external sources._
 
 - [Morphological Transformations – OpenCV](https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html)
     
-- [Udacity – Closing]([https://www.youtube.com/watch?v=GRxrfOTyoOM](https://www.youtube.com/watch?v=uv10u-SIM8A))
+- [Udacity – Closing](https://www.youtube.com/watch?v=uv10u-SIM8A)
 
 ## Related concepts
 

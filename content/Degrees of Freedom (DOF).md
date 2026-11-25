@@ -8,7 +8,7 @@ A rigid body moving freely in three-dimensional space has six degrees of freedom
 
 The number of degrees of freedom determines how many different movements a robot can perform and how flexibly it can position its end effector.
 
-[[Grübler's Formula]] is used to calculate the number of degrees of freedom, of a mechanical mechanism.
+[[Grübler's Formula]] is used to calculate the number of degrees of freedom of a mechanical mechanism.
 
 ## Resources
 

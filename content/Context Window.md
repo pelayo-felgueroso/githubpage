@@ -1,8 +1,8 @@
 ## Explanation
 
-A context window is the amount of information a language model can process at one time. It includes the text from the conversation, instructions and other information provided to the model.
+A context window is the amount of information a language model can process at one time. It includes the prompt, the conversation history, and its answer together.
 
-The context is usually measured in [[Token]]s. A larger context window allows the model to work with longer conversations or documents without losing access to earlier information.
+The context is usually measured in [[Token|Tokens]]. A larger context window allows the model to work with longer conversations or documents without losing access to earlier information.
 
 However, having a larger context window does not necessarily mean that a model will understand or remember every detail equally well.
 

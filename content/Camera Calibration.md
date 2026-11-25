@@ -23,7 +23,7 @@ There are two common configurations:
 - **Eye-in-hand:** the camera is mounted on the robot's wrist or end effector.
 - **Eye-to-hand:** the camera is fixed in the environment, independently of the robot.
 
-Hand-eye calibration estimates the transformation between the camera and the robot. A common mathematical formulation is AX = XB.
+Hand-eye calibration estimates the transformation between the camera and the robot.
 
 A small calibration error can produce a significant positioning error when the robot tries to grasp an object. Detecting an object correctly is not enough if its position cannot be accurately converted into robot coordinates.
 ## Resources

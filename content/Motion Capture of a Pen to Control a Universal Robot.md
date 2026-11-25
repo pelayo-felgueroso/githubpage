@@ -11,16 +11,14 @@ The goal was to create a more intuitive way for a person to interact with an ind
 
 The project brought together mechanical design, computer vision, electronics and robotics, combining hardware and software into a working control system.
 
-![Complete motion tracking setup](images/setup.jpg)
+Complete motion-tracking setup: camera mount, stylus and UR5e
 
 ## How Does It Work?
 
 The system is built around three main components:
 
 1. **The stylus:** A custom-designed pen equipped with visual references that allow the camera to track its position and orientation.
-    
 2. **The camera and processing system:** An Intel RealSense D405 captures images and depth information. Computer vision algorithms use this data to estimate the stylus movements.
-    
 3. **The robotic arm:** A Universal Robots UR5e receives movement commands and reproduces the movements of the stylus.
 
 When the user moves the stylus, the camera captures its movement. The software processes the images, estimates the stylus pose and converts it into coordinates for the robot. These coordinates are then sent to the UR5e, which follows the corresponding movements.
@@ -31,40 +29,27 @@ When the user moves the stylus, the camera captures its movement. The software p
 
 The stylus was designed to be comfortable to hold while providing reliable visual references for the tracking algorithms.
 
-The assembly includes a positioning key to prevent the spheres from rotating, an M3 brass threaded insert and an M3 screw. An ArUco marker was also incorporated as an alternative visual tracking method.
+It features four reference spheres arranged asymmetrically along its body. Their different positions make it possible to distinguish the stylus in space and determine how it is oriented. An ArUco marker was also incorporated as an alternative visual tracking method.
 
-![Custom-designed tracking stylus](images/boceto.jpg)
+The assembly includes a positioning key to prevent the spheres from rotating, an M3 brass threaded insert and an M3 screw.
 
-It features four reference spheres arranged asymmetrically along its body. Their different positions make it possible to distinguish the stylus in space and determine how it is oriented.
+<model-viewer src="./images/stylus.glb" alt="3D model of the custom-designed tracking stylus" camera-controls auto-rotate camera-orbit="225deg 75deg 105%" shadow-intensity="1" exposure="1" style=" width: 100%; height: 450px; background-color: var(--light); border-radius: 12px; "> </model-viewer>
 
-<model-viewer
-  src="./images/stylus.glb"
-  alt="3D model of the custom-designed tracking stylus"
-  camera-controls
-  auto-rotate
-  camera-orbit="225deg 75deg 105%"
-  shadow-intensity="1"
-  exposure="1"
-  style="
-    width: 100%;
-    height: 450px;
-    background-color: var(--light);
-    border-radius: 12px;
-  ">
-</model-viewer>
-
+_Interactive 3D model of the stylus. Drag to rotate._
 
 The design was created in SolidWorks and manufactured using 3D printing. The reference spheres were painted matte white to improve visibility and reduce unwanted reflections.
-![Custom-designed tracking stylus](images/3dprint.jpg)
+
+Stylus prepared for 3D printing
+
 ### 2. Camera Support and Lighting
 
 A stable camera position is essential for accurate motion tracking.
 
 We designed a mounting structure for the Intel RealSense D405 using 4 mm acrylic sheets. The parts were designed in CAD, cut using a laser cutter and mounted onto a 20 × 20 mm aluminium profile.
 
-The structure also includes a circular LED light to provide more consistent illumination during image capture. We added lateral acrylic reinforcements to improve rigidity and reduce vibrations.
+The structure also includes a circular LED light to provide more consistent illumination during image capture, and lateral acrylic reinforcements to improve rigidity and reduce vibrations.
 
-![Custom-designed tracking stylus](images/soporte_bot.jpg)
+Camera support with the RealSense D405 and LED ring, bottom view
 
 ### 3. Control Panel Design
 
@@ -73,34 +58,19 @@ We also designed a physical control panel to house the system electronics and pr
 The enclosure was designed around a Raspberry Pi 4 Model B and a connection board. It includes:
 
 - An LCD screen.
-    
 - Physical control buttons.
-    
 - Status LEDs.
-    
 - A dead-man switch.
-    
 - Ventilation openings.
-    
 - Access to the required ports and connections.
-    
 
 The enclosure was modelled in SolidWorks and manufactured using 3D printing. Its design was divided into a main body and a removable top cover to make assembly and access to the electronics easier.
 
-![Custom-designed tracking stylus](images/case.jpg)
+Control panel enclosure
 
 ### 4. Camera-Based Motion Tracking
 
-The tracking system uses an Intel RealSense D405 RGB-D camera.
-
-An RGB-D camera captures two types of information:
-
-- **RGB image:** A normal colour image.
-    
-- **Depth image:** Information about how far objects are from the camera.
-    
-
-Combining both allows the system to identify visual features in an image and estimate their positions in three-dimensional space.
+The tracking system uses an Intel RealSense D405 RGB-D camera, which captures a colour image and a depth image of the scene. Combining both allows the system to identify visual features in the image and estimate their positions in three-dimensional space.
 
 We developed two complementary approaches to track the stylus.
 
@@ -114,7 +84,7 @@ Once detected, the centre of each sphere can be estimated in the image. Depth in
 
 By combining the positions of the four spheres, the system can estimate the position and orientation of the stylus.
 
-![Sphere tracking](images/balls.jpg)
+Detection of the four reference spheres with their 3D coordinates
 
 #### ArUco Marker Tracking
 
@@ -126,7 +96,7 @@ We implemented marker detection and pose estimation using OpenCV. The resulting 
 
 Using two different tracking approaches allowed us to explore alternative ways of estimating the stylus movement.
 
-![Alternate tracking](images/tracking.jpg)
+ArUco marker detection and pose estimation
 
 ### 5. Stylus Position and Orientation
 
@@ -137,6 +107,7 @@ The tracking information is processed to estimate the position of the stylus tip
 We also developed a geometric simulation in Python using NumPy, SciPy and Matplotlib. It was used to study the relationship between the reference points on the stylus, its orientation and the position of its tip.
 
 This provided a way to test and visualise the geometry behind the tracking system.
+
 ### 6. Robot Communication and Control
 
 The final stage connects the tracking system to the physical robotic arm.
@@ -155,21 +126,18 @@ The electronic system was built around a Raspberry Pi 4 Model B.
 
 We designed and prototyped the control electronics, including the connections for the buttons and status LEDs. The PCB was designed using EasyEDA, and the circuit was assembled and tested.
 
-![Custom-designed tracking stylus](images/pcb.jpg)
+PCB for the control panel electronics
 
 We also designed a graphical user interface to provide information about the system and allow the operator to interact with it.
 
 The interface included operating status, robot status, movement speed, notifications and different operating modes:
 
 - **Echo:** Reproduces the stylus movements.
-    
 - **Real-time:** Provides direct movement control.
-    
 - **Scale:** Applies a scaling factor to the movements.
-    
 - **Mirror:** Mirrors the movements.
 
-![Custom-designed tracking stylus](images/gui.jpg)
+Graphical user interface with the operating modes
 
 ## Project Outcome
 
@@ -179,20 +147,84 @@ We brought together the mechanical, electronic and software components needed to
 
 One of the most interesting aspects of the project was seeing how different engineering disciplines had to work together to solve a single problem. Mechanical design, camera calibration, computer vision, coordinate transformations and robot control were all essential parts of the same system.
 
+System overview
+
 The project gave me practical experience in developing a complete robotic application, working across hardware and software and turning an initial concept into a physical system.
 
-![Custom-designed tracking stylus](images/esquema.jpg)
+<video src="./images/demo.mp4" controls muted playsinline loop style="width: 100%; border-radius: 12px;"></video>
+
+_Me operating the UR5e with the custom stylus. Echo operating mode (Reproduces the stylus movements)_
+
+## My Contribution
+
+This was a four-person team project. I defined the physical concept of the system: how the setup would be arranged, how the stylus would be tracked and where the camera would be mounted. I then designed and built all the mechanical components, from the first sketches through CAD, manufacturing and assembly.
+
+Because the mechanical design had a direct effect on tracking performance, I worked closely with the motion-tracking side of the project. I designed the stylus geometry the tracking relied on: the reference spheres, their spacing and the asymmetric layout that makes the pose identifiable, plus an ArUco marker as a second tracking method. I also chose the camera's mounting height above the table, so the user's workspace stayed within the camera's reliable depth range.
+
+<style> .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 1rem 0; } .gallery figure { margin: 0; } .gallery img { width: 100%; height: 220px; object-fit: contain; background: #fff; border-radius: 8px; } .gallery figcaption, .hero figcaption { font-size: 0.85rem; text-align: center; opacity: 0.8; } .hero { margin: 1rem 0; } .hero img { width: 100%; max-height: 480px; object-fit: contain; background: #fff; border-radius: 8px; } </style>
+
+### System Concept
+
+Before designing any part, I sketched how the user would hold and move the stylus and how the setup would be arranged: the camera above the workspace, the user moving the stylus underneath it, and the UR5e reproducing the motion.
+
+<figure class="hero"> <img src="./images/concepto_stylet.jpg" alt="Hand-drawn concept of the stylus in use"> <figcaption>Hand-drawn concept of the stylus in use, the starting point of the design</figcaption> </figure>
+
+### Tracking Stylus
+
+I benchmarked existing styluses (Apple Pencil: 157 × 9 mm; Wacom Intuos 4 Grip Pen: 151 × 12.7 mm) and chose a length of 150 mm for familiar handling and a diameter of 18 mm for a firm grip during long use.
+
+<figure class="hero"> <img src="./images/comp.jpg" alt="Size comparison with Apple Pencil and Wacom Intuos 4 Grip Pen"> <figcaption>Size comparison with existing styluses</figcaption> </figure>
+
+I designed the tracking geometry around the vision requirements. The four reference spheres are placed **asymmetrically**, at 36, 51, 36 and 66 mm from the centre, so that each sphere can be identified and the stylus orientation is unambiguous. An ArUco marker provides a second, redundant tracking method in case spheres are occluded.
+
+<div class="gallery"> <figure><img src="./images/boceto_pre.jpg" alt="Preliminary sketch of the stylus"><figcaption>Preliminary sketch</figcaption></figure> <figure><img src="./images/reff.jpg" alt="Asymmetrical sphere layout, numbered"><figcaption>Asymmetrical sphere layout</figcaption></figure> <figure><img src="./images/aruco.jpg" alt="ArUco marker integrated in the stylus"><figcaption>Integrated ArUco marker</figcaption></figure> </div>
+
+Details that made the tracking reliable:
+
+- A **key** that prevents the sphere attachment from rotating, so the known geometry used by the pose estimation never changes.
+- An **M3 brass threaded insert and a DIN 912 M3×16 screw** for a robust, removable joint, hidden under the ArUco marker.
+- **Matte RAL 9010 white** paint on the spheres, with the rest of the body masked, for maximum contrast and minimal reflections.
+
+<div class="gallery"> <figure><img src="./images/boceto.jpg" alt="Exploded assembly sketch with dimensions"><figcaption>Exploded assembly sketch</figcaption></figure> <figure><img src="./images/key.jpg" alt="Exploded view showing the anti-rotation key"><figcaption>Anti-rotation key</figcaption></figure> <figure><img src="./images/exploded_view.jpg" alt="Exploded view of the full assembly"><figcaption>Full assembly</figcaption></figure> </div>
+
+The stylus was modelled in SolidWorks, 3D printed, assembled and painted.
+
+<div class="gallery"> <figure><img src="./images/painting_process.jpg" alt="Painting the reference spheres"><figcaption>Painting the spheres (body masked)</figcaption></figure> <figure><img src="./images/pint.jpg" alt="Final stylus with painted spheres"><figcaption>Final stylus</figcaption></figure> </div>
+
+### Camera Support
+
+I designed the mount for the Intel RealSense D405 in **laser-cut 4 mm acrylic** on a 20×20 mm aluminium profile, with the needs of the vision system in mind:
+
+- **Mounting height:** I defined the height of the camera mount above the table, balancing the depth camera's optimal working distance against the field of view needed to cover the user's movements.
+- **Primary support** with camera fixation points and radial holes for a **circular LED ring**, giving uniform lighting on the spheres and reducing shadows and detection errors.
+- **Spacers** that position the camera just below the LED ring and keep clearance for its cable.
+
+<div class="gallery"> <figure><img src="./images/top.jpg" alt="Primary support with LED ring, top view"><figcaption>Primary support, top view</figcaption></figure> <figure><img src="./images/bot.jpg" alt="Primary support with camera, bottom view"><figcaption>Primary support with camera, bottom view</figcaption></figure> </div>
+
+During testing I found that the horizontal bar oscillated, which degraded the depth data. I sketched curved **lateral reinforcements** to connect the vertical and horizontal bars, turned them into DXF files for laser cutting and mounted them, which eliminated the vibration.
+
+<div class="gallery"> <figure><img src="./images/supports.jpg" alt="Concept sketches of the lateral reinforcements"><figcaption>Reinforcement concept sketches</figcaption></figure> <figure><img src="./images/lat.jpg" alt="Lateral reinforcement part"><figcaption>Final reinforcement part</figcaption></figure> </div> <figure class="hero"> <img src="./images/soporte_lat.jpg" alt="Final camera support mounted on the aluminium profile"> <figcaption>Final assembly on the aluminium profile, with the reinforcements in place</figcaption> </figure>
+
+### Control Panel
+
+I designed the operator's panel, which also houses the electronics:
+
+- A **main box** for the Raspberry Pi 4 and the connection board, with the LCD above, cutouts for all ports and lateral ventilation slots.
+- A **removable top cover** with the control buttons, five status LEDs and the dead-man switch, fastened with M3×12 screws into 3 mm inserts for easy maintenance.
+
+<figure class="hero"> <img src="./images/boceto_mando.jpg" alt="Hand-drawn concept of the control panel"> <figcaption>Hand-drawn concept of the control panel</figcaption> </figure> <div class="gallery"> <figure><img src="./images/diseno_final_mando_2.jpg" alt="Control panel, isometric view"><figcaption>Isometric view</figcaption></figure> <figure><img src="./images/diseno_final_mando_1.jpg" alt="Control panel, side view with ports and ventilation"><figcaption>Ports and ventilation</figcaption></figure> <figure><img src="./images/seccion_mando.jpg" alt="Cross-section of the internal layout"><figcaption>Internal layout (cross-section)</figcaption></figure> </div>
+
+### What I Took from It
+
+Designing the physical system of a vision-controlled robot taught me that hardware and computer vision cannot be designed separately. Sphere placement, surface finish, lighting and structural stiffness all decided how well the camera could track the stylus. Designing for the vision system, and seeing the robot follow my own hand movements with the stylus I had designed, was the most rewarding part of the project.
 
 ## Project Information
 
 - **Project:** Motion Capture of a Pen to Control a Universal Robot
-    
 - **Academic year:** 2024/2025
-    
 - **Programme:** EU4M Mechatronics
-    
 - **Institution:** SUPMICROTECH, Besançon, France
-    
+- **Team:** 4 students
+- **My role:** System concept and mechanical design; stylus geometry and camera placement for motion tracking
 - **Robot:** Universal Robots UR5e
-    
 - **Camera:** Intel RealSense D405
