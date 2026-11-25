@@ -14,7 +14,6 @@ The main topics covered include:
     
 - [[Deep Learning]]
     
-aqui
 <div style="margin: 25px 0;">
   <button
     id="random-note-button"
