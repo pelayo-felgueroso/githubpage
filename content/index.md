@@ -4,8 +4,6 @@ title: "A collection of things I'm learning about"
 
 This is a personal collection of notes on different topics, built up over time. It brings together explanations, practical knowledge, references and connections between ideas. Its purpose is simply to help me understand things better, keep track of what I've learned and have everything in one place to come back to.
 
-The notes are organised in an Obsidian vault and published through GitHub Pages, making them accessible online. Although the collection is primarily intended for personal use, the notes are publicly available.
-
 The main topics covered include:
 
 - [[Computer Vision]]
@@ -16,8 +14,7 @@ The main topics covered include:
     
 - [[Deep Learning]]
     
-For some information about my background and professional experience, see [[About Me]].
-
+aqui
 <div style="margin: 25px 0;">
   <button
     id="random-note-button"
@@ -83,3 +80,6 @@ For some information about my background and professional experience, see [[Abou
   });
 })();
 </script>
+
+
+For some information about my background and professional experience, see [[About Me]].
