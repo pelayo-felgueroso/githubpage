@@ -215,7 +215,7 @@ I designed the operator's panel, which also houses the electronics:
 - A **main box** for the Raspberry Pi 4 and the connection board, with the LCD above, cutouts for all ports and lateral ventilation slots.
 - A **removable top cover** with the control buttons, five status LEDs and the dead-man switch, fastened with M3×12 screws into 3 mm inserts for easy maintenance.
 
-<figure class="hero"> <img src="./images/boceto_mando.jpg" alt="Hand-drawn concept of the control panel"> <figcaption>Hand-drawn concept of the control panel</figcaption> </figure> <div class="gallery"> <figure><img src="./images/diseno_final_mando_2.jpg" alt="Control panel, isometric view"><figcaption>Isometric view</figcaption></figure> <figure><img src="./images/diseno_final_mando_1.jpg" alt="Control panel, side view with ports and ventilation"><figcaption>Ports and ventilation</figcaption></figure> <figure><img src="./images/seccion_mando.jpg" alt="Cross-section of the internal layout"><figcaption>Internal layout (cross-section)</figcaption></figure> </div>
+<figure class="hero"> <img src="./images/boceto_mando.jpg" alt="Hand-drawn concept of the control panel"> <figcaption>Hand-drawn concept of the control panel</figcaption> </figure> <div class="gallery"> <figure><img src="./images/diseno_final_mando_2.jpg" alt="Control panel, isometric view"><figcaption>Isometric view</figcaption></figure> <figure><img src="./images/diseno_final_mando_1.jpg" alt="Control panel, side view with ports and ventilation"><figcaption>Ports and ventilation</figcaption></figure></div>
 
 ### What I Took from It
 
