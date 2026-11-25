@@ -9,4 +9,9 @@
     position: relative;
     z-index: 1000;
   }
-}// put your custom CSS here!
+
+  // Keep the top bar at the top of the page instead of following the scroll
+  .page > #quartz-body .sidebar.left {
+    position: static !important;
+  }
+}
