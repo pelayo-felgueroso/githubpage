@@ -160,7 +160,7 @@ This was a four-person team project. I defined the physical concept of the syste
 
 Because the mechanical design had a direct effect on tracking performance, I worked closely with the motion-tracking side of the project. I designed the stylus geometry the tracking relied on: the reference spheres, their spacing and the asymmetric layout that makes the pose identifiable, plus an ArUco marker as a second tracking method. I also decided the mounting height of the camera above the table together with the vision team, so that the camera's working range and field of view covered the user's workspace with reliable depth data.
 
-<style> .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 1rem 0; } .gallery figure { margin: 0; } .gallery img { width: 100%; height: 220px; object-fit: contain; background: #fff; border-radius: 8px; } .gallery figcaption, .hero figcaption { font-size: 0.85rem; text-align: center; opacity: 0.8; } .hero { margin: 1rem 0; } .hero img { width: 100%; max-height: 480px; object-fit: contain; background: #fff; border-radius: 8px; } </style>
+<style> .gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 1.5rem 0; } .gallery figure { margin: 0; } .gallery img { width: 100%; height: auto; border-radius: 8px; } .gallery figcaption, .hero figcaption { font-size: 0.85rem; text-align: center; opacity: 0.8; } .hero { margin: 1.5rem 0; } .hero img { width: 100%; height: auto; border-radius: 8px; } </style>
 
 ### System Concept and User Interaction
 
@@ -186,7 +186,7 @@ Details that made the tracking reliable:
 - An **M3 brass threaded insert and a DIN 912 M3×16 screw** for a robust, removable joint, hidden under the ArUco marker.
 - **Matte RAL 9010 white** paint on the spheres, with the rest of the body masked, for maximum contrast and minimal reflections.
 
-<figure class="hero"> <img src="./images/concepto_stylet.jpg" alt="Hand-drawn concept of the stylus in use"> <figcaption>Hand-drawn sketch of the exploded assembly</figcaption> </figure>
+<figure class="hero"> <img src="./images/boceto.jpg" alt="Hand-drawn concept of the stylus in use"> <figcaption>Hand-drawn sketch of the exploded assembly</figcaption> </figure>
 
 <div class="gallery"><figure><img src="./images/exploded_view.jpg" alt="Exploded view showing the anti-rotation key"><figcaption> Exploded view in CAD</figcaption></figure> <figure><img src="./images/stylet_nopaint.jpg" alt="3D printed before painting"><figcaption>3D Printed fuully assembled before painting</figcaption></figure> </div>
 
