@@ -186,7 +186,9 @@ Details that made the tracking reliable:
 - An **M3 brass threaded insert and a DIN 912 M3×16 screw** for a robust, removable joint, hidden under the ArUco marker.
 - **Matte RAL 9010 white** paint on the spheres, with the rest of the body masked, for maximum contrast and minimal reflections.
 
-<div class="gallery"> <figure><img src="./images/boceto.jpg" alt="Exploded assembly sketch with dimensions"><figcaption>Exploded assembly sketch</figcaption></figure> <figure><img src="./images/key.jpg" alt="Exploded view showing the anti-rotation key"><figcaption>Anti-rotation key</figcaption></figure> <figure><img src="./images/exploded_view.jpg" alt="Exploded view of the full assembly"><figcaption>Full assembly</figcaption></figure> </div>
+<figure class="hero"> <img src="./images/concepto_stylet.jpg" alt="Hand-drawn concept of the stylus in use"> <figcaption>Hand-drawn sketch of the exploded assembly</figcaption> </figure>
+
+<div class="gallery"><figure><img src="./images/exploded_view.jpg" alt="Exploded view showing the anti-rotation key"><figcaption> Exploded view in CAD</figcaption></figure> <figure><img src="./images/stylet_nopaint.jpg" alt="3D printed before painting"><figcaption>3D Printed fuully assembled before painting</figcaption></figure> </div>
 
 The stylus was modelled in SolidWorks, 3D printed, assembled and painted.
 
@@ -204,7 +206,7 @@ I designed the mount for the Intel RealSense D405 in **laser-cut 4 mm acrylic** 
 
 During testing I found that the horizontal bar oscillated, which degraded the depth data. I sketched curved **lateral reinforcements** directly over a photo of the structure, turned them into DXF files for laser cutting and mounted them, which eliminated the vibration.
 
-<div class="gallery"> <figure><img src="./images/supports.jpg" alt="Reinforcement sketched over a photo of the structure"><figcaption>Reinforcement sketched on the real structure</figcaption></figure> <figure><img src="./lat.jpg" alt="Lateral reinforcement part"><figcaption>Final reinforcement part</figcaption></figure> </div> <figure class="hero"> <img src="./images/soporte_lat.jpg" alt="Final camera support mounted on the aluminium profile"> <figcaption>Final assembly on the aluminium profile, with the reinforcements in place</figcaption> </figure>
+<div class="gallery"> <figure><img src="./images/supports.jpg" alt="Reinforcement sketched over a photo of the structure"><figcaption>Reinforcement sketched on the real structure</figcaption></figure> <figure><img src=".images/lat.jpg" alt="Lateral reinforcement part"><figcaption>Final reinforcement part</figcaption></figure> </div> <figure class="hero"> <img src="./images/soporte_lat.jpg" alt="Final camera support mounted on the aluminium profile"> <figcaption>Final assembly on the aluminium profile, with the reinforcements in place</figcaption> </figure>
 
 ### Control Panel
 
