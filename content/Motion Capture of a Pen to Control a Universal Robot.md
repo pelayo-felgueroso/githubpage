@@ -178,7 +178,7 @@ I benchmarked existing styluses (Apple Pencil: 157 × 9 mm; Wacom Intuos 4 Grip 
 
 I designed the tracking geometry together with the vision requirements. The four reference spheres are placed **asymmetrically**, at 36, 51, 36 and 66 mm from the centre, so that each sphere can be identified and the stylus orientation is unambiguous. An ArUco marker provides a second, redundant tracking method in case spheres are occluded.
 
-<div class="gallery"> <figure><img src="./images/boceto_pre.jpg" alt="Preliminary sketch of the stylus"><figcaption>Preliminary sketch</figcaption></figure> <figure><img src="./images/reff.jpg" alt="Asymmetrical sphere layout, numbered"><figcaption>Asymmetrical sphere layout</figcaption></figure> <figure><img src="./images/aruco.jpg" alt="ArUco marker integrated in the stylus"><figcaption>Integrated ArUco marker</figcaption></figure> </div>
+<div class="gallery"> <figure><img src="./images/boceto_pre.jpg" alt="Preliminary sketch of the stylus"><figcaption>Preliminary sketch</figcaption></figure> <figure><img src="./images/reff.jpg" alt="Asymmetrical sphere layout, numbered"><figcaption>Asymmetrical sphere layout</figcaption></figure></div>
 
 Details that made the tracking reliable:
 
