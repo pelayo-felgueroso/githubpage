@@ -178,7 +178,9 @@ I benchmarked existing styluses (Apple Pencil: 157 × 9 mm; Wacom Intuos 4 Grip 
 
 I designed the tracking geometry together with the vision requirements. The four reference spheres are placed **asymmetrically**, at 36, 51, 36 and 66 mm from the centre, so that each sphere can be identified and the stylus orientation is unambiguous. An ArUco marker provides a second, redundant tracking method in case spheres are occluded.
 
-<div class="gallery"> <figure><img src="./images/boceto_pre.jpg" alt="Preliminary sketch of the stylus"><figcaption>Preliminary sketch</figcaption></figure> <figure><img src="./images/reff.jpg" alt="Asymmetrical sphere layout, numbered"><figcaption>Asymmetrical sphere layout</figcaption></figure></div>
+<figure class="hero"> <img src="./images/boceto_pre.jpg" alt="Hand-drawn concept of the stylus in use"> <figcaption>Hand-drawn sketch of the exploded assembly</figcaption> </figure>
+
+<div class="gallery"> <figure><img src="./images/aruco.jpg" alt="ArUco marker integrated in the stylus"><figcaption>Integrated ArUco marker</figcaption></figure> <figure><img src="./images/reff.jpg" alt="Asymmetrical sphere layout, numbered"><figcaption>Asymmetrical sphere layout</figcaption></figure></div>
 
 Details that made the tracking reliable:
 
@@ -215,7 +217,7 @@ I designed the operator's panel, which also houses the electronics:
 - A **main box** for the Raspberry Pi 4 and the connection board, with the LCD above, cutouts for all ports and lateral ventilation slots.
 - A **removable top cover** with the control buttons, five status LEDs and the dead-man switch, fastened with M3×12 screws into 3 mm inserts for easy maintenance.
 
-<figure class="hero"> <img src="./images/boceto_mando.jpg" alt="Hand-drawn concept of the control panel"> <figcaption>Hand-drawn concept of the control panel</figcaption> </figure> <div class="gallery"> <figure><img src="./images/diseno_final_mando_2.jpg" alt="Control panel, isometric view"><figcaption>Isometric view</figcaption></figure> <figure><img src="./images/diseno_final_mando_1.jpg" alt="Control panel, side view with ports and ventilation"><figcaption>Ports and ventilation</figcaption></figure></div>
+<figure class="hero"> <img src="./images/boceto_mando.jpg" alt="Hand-drawn concept of the control panel"> <figcaption>Hand-drawn concept of the control panel</figcaption> </figure> <div class="gallery"> <figure><img src="./images/diseno_final_mando_2.jpg" alt="Control panel, top view"><figcaption>Top view</figcaption></figure> <figure><img src="./images/diseno_final_mando_1.jpg" alt="Control panel, side view with ports and ventilation"><figcaption>Ports and ventilation</figcaption></figure></div>
 
 ### What I Took from It
 
